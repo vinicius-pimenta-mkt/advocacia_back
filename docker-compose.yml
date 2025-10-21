@@ -4,10 +4,10 @@ services:
   app:
     build: .
     ports:
-      - "8080:8080"
+      - "4000:4000"
     environment:
       - NODE_ENV=development
-      - PORT=8080
+      - PORT=4000
       - JWT_SECRET=35b75ccd96165e47c2308a85d821bb4daa84c91efbd282895f176db2eeb945a7
       - ADMIN_USER=admin
       - ADMIN_PASS=admin123
