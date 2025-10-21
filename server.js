@@ -20,7 +20,7 @@ initDatabase();
 const app = express();
 // Variável de HOST é essencial para contêineres/Docker
 const HOST = '0.0.0.0'; 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 4000;
 const JWT_SECRET = process.env.JWT_SECRET || '35b75ccd96165e47c2308a85d821bb4daa84c91efbd282895f176db2eeb945a7';
 
 // Middleware
